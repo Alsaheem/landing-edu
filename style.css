@@ -1,0 +1,140 @@
+.intro-section {
+  padding-top: 10%;
+  min-height: 70vh;
+}
+
+.bg-custom {
+  background-color: #2f2f55;
+}
+
+.bg-custom-light {
+  background-color: #eeeefb;
+}
+
+.text-custom {
+  color: #2f2f55;
+}
+
+.btn-outline-white {
+  border: 0.25px solid white;
+  border-radius: 15px;
+}
+
+.btn-outline-white:hover {
+  border: 0.25px solid white;
+}
+
+.img-intro {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.online-courses-snippet {
+  padding-top: 5%;
+  min-height: 70vh;
+}
+
+.btn-custom {
+  background-color: #2f2f55;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: white;
+  border: 0.25px solid #2f2f55;
+}
+
+.btn-outline-custom {
+  border: 0.25px solid #2f2f55;
+  color: #2f2f55;
+}
+
+.btn-outline-custom:hover {
+  background-color: #2f2f55;
+  color: white;
+}
+
+.instructor-section {
+  padding-top: 9%;
+  min-height: 80vh;
+}
+
+.btn-rounded {
+  border-radius: 15px;
+}
+
+.learn-from-anywhere {
+  padding-top: 5%;
+  min-height: 70vh;
+}
+
+.welcome-to-classroom{
+  padding-top: 5%;
+  min-height: 70vh;
+}
+
+.video-embed {
+  max-width: 900px;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.video-embed {
+  width: 900px;
+  border: 5px solid #2f2f55;
+}
+
+.card-body {
+  min-height: 300px;
+  min-width: 20px;
+  margin: 5px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  border: 5px solid #2f2f55;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+
+.image-main{
+  height: 500px;
+}
+
+@media only screen and (min-device-width: 305px) and (max-device-width: 667px) {
+  .video-embed {
+    width: 350px;
+  }
+  .happy-img {
+    display: none;
+  }
+  .intro-section {
+    text-align: center;
+  }
+  .instructor-section {
+    text-align: center;
+  }
+  .learn-from-anywhere {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .learn {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .teacher {
+    margin-top: 40px;
+  }
+.main-buttons{
+  margin-bottom: 40px;
+}
+}
