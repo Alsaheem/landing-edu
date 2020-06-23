@@ -13,7 +13,7 @@
   border: 0.45px solid rgb(165, 231, 145);
 }
 
-.btn-outline-green:hover{
+.btn-outline-green:hover {
   border-radius: 15px;
   color: black;
   background-color: rgb(165, 231, 145);
@@ -117,17 +117,14 @@ body {
   min-height: 70vh;
 }
 
-.video-embed {
-  max-width: 900px;
-}
-
 .navbar-brand {
   margin-left: 20px;
 }
 
 .video-embed {
+  max-width: 900px;
   width: 900px;
-  border: 8px solid rgb(165, 231, 145);
+  border: 5px solid rgb(165, 231, 145);
 }
 
 .card-body {
@@ -138,7 +135,7 @@ body {
 
 .card:hover {
   transform: scale(1.1);
-  border: 5px solid #A5E791;
+  border: 5px solid #a5e791;
   transition: transform 0.25s, visibility 0.25s ease-in;
 }
 
@@ -268,8 +265,8 @@ body {
 /* Demo Purpose Only*/
 
 .square {
-  height: 50px;
-  width: 50px;
+  height: 25px;
+  width: 25px;
   background-color: rgb(165, 231, 145);
 }
 
@@ -307,7 +304,7 @@ body {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
-  border-top: 50px solid rgb(165, 231, 145);
+  border-top: 25px solid rgb(165, 231, 145);
 }
 
 .triangle-left {
